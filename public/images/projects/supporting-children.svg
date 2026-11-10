@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bgChildren" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102A43"/>
+      <stop offset="55%" stop-color="#144552"/>
+      <stop offset="100%" stop-color="#16856A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgChildren)"/>
+  <circle cx="600" cy="400" r="310" fill="#F8FAFC" fill-opacity="0.04" stroke="#D6A84B" stroke-width="1.5" stroke-opacity="0.3"/>
+  <circle cx="600" cy="400" r="230" fill="#F8FAFC" fill-opacity="0.05"/>
+  <!-- Open Book & Rising Star / Care Symbol -->
+  <g transform="translate(380, 230)">
+    <!-- Open Book Pages -->
+    <path d="M220 90C160 65 80 65 20 85V290C80 270 160 270 220 295C280 270 360 270 420 290V85C360 65 280 65 220 90Z" fill="#102A43" fill-opacity="0.85" stroke="#D6A84B" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M220 90V295" stroke="#D6A84B" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Text Lines on Left Page -->
+    <path d="M65 135H175" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7"/>
+    <path d="M65 170H175" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7"/>
+    <path d="M65 205H145" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7"/>
+    <!-- Text Lines on Right Page -->
+    <path d="M265 135H375" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7"/>
+    <path d="M265 170H375" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7"/>
+    <path d="M265 205H345" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" stroke-opacity="0.7"/>
+    <!-- Warm Emblem Above Book -->
+    <circle cx="220" cy="20" r="36" fill="#D6A84B" fill-opacity="0.25" stroke="#D6A84B" stroke-width="2.5"/>
+    <path d="M220 4L236 20L220 36L204 20L220 4Z" fill="#D6A84B"/>
+  </g>
+  <g transform="translate(80, 665)">
+    <rect width="580" height="54" rx="8" fill="#102A43" fill-opacity="0.9" stroke="#D6A84B" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="24" y="33" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" letter-spacing="0.06em">
+      PROGRAM CONCEPT • SUPPORTING CHILDREN IN NEED INITIATIVE
+    </text>
+  </g>
+</svg>

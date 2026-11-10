@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#102A43"/>
+  <rect x="60" y="60" width="1080" height="680" rx="16" fill="#163552" stroke="#D6A84B" stroke-width="2" stroke-opacity="0.4"/>
+  <!-- Classroom Desks & Chalkboard Illustration -->
+  <rect x="260" y="130" width="680" height="250" rx="8" fill="#0F293A" stroke="#D6A84B" stroke-width="3"/>
+  <path d="M320 210H620" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round" stroke-opacity="0.75"/>
+  <path d="M320 255H520" stroke="#16856A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M320 300H720" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round" stroke-opacity="0.5"/>
+  <!-- Student Desks -->
+  <g transform="translate(220, 440)">
+    <rect x="0" y="0" width="210" height="24" rx="4" fill="#D6A84B"/>
+    <rect x="20" y="24" width="14" height="120" fill="#F8FAFC" fill-opacity="0.6"/>
+    <rect x="176" y="24" width="14" height="120" fill="#F8FAFC" fill-opacity="0.6"/>
+  </g>
+  <g transform="translate(495, 440)">
+    <rect x="0" y="0" width="210" height="24" rx="4" fill="#D6A84B"/>
+    <rect x="20" y="24" width="14" height="120" fill="#F8FAFC" fill-opacity="0.6"/>
+    <rect x="176" y="24" width="14" height="120" fill="#F8FAFC" fill-opacity="0.6"/>
+  </g>
+  <g transform="translate(770, 440)">
+    <rect x="0" y="0" width="210" height="24" rx="4" fill="#D6A84B"/>
+    <rect x="20" y="24" width="14" height="120" fill="#F8FAFC" fill-opacity="0.6"/>
+    <rect x="176" y="24" width="14" height="120" fill="#F8FAFC" fill-opacity="0.6"/>
+  </g>
+</svg>
