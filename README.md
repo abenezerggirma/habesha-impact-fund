@@ -66,7 +66,7 @@ All environment variables are documented in [`.env.example`](.env.example).
 
 | Variable | Scope | Description |
 | :--- | :--- | :--- |
-| `NEXT_PUBLIC_SITE_URL` | Public | Canonical site URL (e.g., `https://habeshaimpactfund.org`) |
+| `NEXT_PUBLIC_SITE_URL` | Public | Canonical site URL (e.g., `https://habeshaimpact.org`) |
 | `NEXT_PUBLIC_DONATION_PROVIDER` | Public | `"none"` (default), `"stripe_payment_link"`, `"paypal_hosted"`, or `"external_hosted"` |
 | `NEXT_PUBLIC_DONATION_GENERAL_URL` | Public | HTTPS URL for general fund one-time donations |
 | `NEXT_PUBLIC_DONATION_MONTHLY_URL` | Public | HTTPS URL for monthly recurring donations |

@@ -36,13 +36,13 @@ export function getSiteSettings(): SiteSettings {
     Boolean(process.env.NEWSLETTER_WEBHOOK_URL?.startsWith("https://"));
 
   return {
-    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://habeshaimpactfund.org",
+    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://habeshaimpact.org",
     donationProvider: provider,
     generalDonationUrl: hasValidGeneralUrl ? generalUrl : "",
     monthlyDonationUrl: hasValidMonthlyUrl ? monthlyUrl : "",
     supportsRecurringDonations,
     contactEmail:
-      process.env.CONTACT_RECIPIENT_EMAIL || "info@habeshaimpactfund.org",
+      process.env.CONTACT_RECIPIENT_EMAIL || "info@habeshaimpact.org",
     contactDeliveryConfigured,
     newsletterConfigured,
     irs501c3Verified: process.env.NEXT_PUBLIC_IRS_501C3_VERIFIED === "true",
@@ -61,7 +61,7 @@ export const siteConfig = {
   tagline: "Together, We Can Create Lasting Impact.",
   description:
     "Habesha Impact Fund is a California nonprofit public benefit corporation connecting generosity with meaningful opportunities to support education, children, and underserved communities in Ethiopia and beyond.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://habeshaimpactfund.org",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://habeshaimpact.org",
   navigation: [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },

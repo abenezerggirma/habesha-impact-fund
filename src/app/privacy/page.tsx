@@ -95,10 +95,10 @@ export default function PrivacyPolicyPage() {
             For questions regarding this draft Privacy Policy or to request deletion of any
             correspondence records, please contact{" "}
             <a
-              href="mailto:info@habeshaimpactfund.org"
+              href="mailto:info@habeshaimpact.org"
               className="font-semibold text-[#16856A] underline"
             >
-              info@habeshaimpactfund.org
+              info@habeshaimpact.org
             </a>
             .
           </p>

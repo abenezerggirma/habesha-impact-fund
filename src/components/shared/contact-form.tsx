@@ -21,7 +21,7 @@ interface ContactFormProps {
 export function ContactForm({
   initialInquiryType = "General Inquiry",
   initialSubject = "",
-  contactEmail = "info@habeshaimpactfund.org",
+  contactEmail = "info@habeshaimpact.org",
 }: ContactFormProps) {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");

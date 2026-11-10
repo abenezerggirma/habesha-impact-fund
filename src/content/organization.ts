@@ -80,9 +80,9 @@ export const organizationContent: OrganizationProfile = {
   transparencyCommitment:
     "As an emerging charitable foundation, we believe trust is earned through candor. We do not publish unverified impact numbers, projected beneficiary counts as completed outcomes, or unconfirmed tax assertions. All project pages clearly indicate whether an initiative is in draft planning, active fundraising, or verified implementation.",
   contact: {
-    email: "info@habeshaimpactfund.org",
-    generalInquiriesEmail: "info@habeshaimpactfund.org",
-    partnershipsEmail: "partnerships@habeshaimpactfund.org",
+    email: "info@habeshaimpact.org",
+    generalInquiriesEmail: "info@habeshaimpact.org",
+    partnershipsEmail: "partnerships@habeshaimpact.org",
     location: "California, United States",
     mailingAddressNote:
       "Official corporate correspondence and partnership inquiries may be directed through our verified contact channel below.",

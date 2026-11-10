@@ -17,7 +17,7 @@ export function ShareProject({ title, slug, summary }: ShareProjectProps) {
     if (typeof window !== "undefined") {
       return `${window.location.origin}/projects/${slug}`;
     }
-    return `https://habeshaimpactfund.org/projects/${slug}`;
+    return `https://habeshaimpact.org/projects/${slug}`;
   };
 
   const handleShare = async () => {
